@@ -1,0 +1,18 @@
+services:
+  berryradio:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - /opt/berryradio/music:/opt/berryradio/music
+      - /opt/berryradio/fm_transmitter:/opt/berryradio/fm_transmitter:ro
+      - /dev/mem:/dev/mem
+      - /dev/vcio:/dev/vcio
+    environment:
+      NODE_ENV: production
+      PORT: 5000
+    restart: unless-stopped
+    privileged: true
+    cap_add:
+      - SYS_ADMIN
+      - SYS_RAWIO
