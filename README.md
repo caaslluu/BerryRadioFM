@@ -6,14 +6,14 @@ Station radio FM sur Raspberry Pi avec interface React moderne.
 
 ### Option 1: Installation directe (recommandé)
 ```bash
-curl -fsSL https://raw.githubusercontent.com/caaslluu/berryradio/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/caaslluu/BerryRadioFM/main/scripts/install.sh | bash
 ```
 
 ### Option 2: Docker
 ```bash
-git clone https://github.com/caaslluu/berryradio.git
-cd berryradio
-sudo docker-compose up -d
+git clone https://github.com/caaslluu/BerryRadioFM.git
+cd BerryRadioFM
+sudo docker-compose -f docker/docker-compose.yml up -d
 ```
 
 Puis ouvrez `http://votre-ip-raspberry:5000`
@@ -33,7 +33,11 @@ Puis ouvrez `http://votre-ip-raspberry:5000`
 - Frontend: React + Tailwind CSS
 - Radio: PiFmRds
 - Gestion: PM2
-- Containerisation: Docker
+
+## Documentation
+
+- [Installation Guide](docs/INSTALLATION.md)
+- [Troubleshooting](docs/TROUBLESHOOTING.md)
 
 ## License
 
