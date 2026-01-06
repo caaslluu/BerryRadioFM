@@ -1,6 +1,6 @@
 # 🍓 BerryRadio
 
-Station radio FM sur Raspberry Pi avec interface React moderne.
+🍓 Transforme ton Raspberry Pi en station radio FM avec une interface web intuitive
 
 ## Installation rapide
 
