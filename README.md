@@ -20,7 +20,6 @@ Puis ouvrez `http://votre-ip-raspberry:5000`
 
 ## Features
 
-- ✨ Interface React moderne
 - 🌓 Dark/Light mode
 - 🎵 Support MP3/WAV
 - 📻 Contrôle FM 87.5-108.8 MHz
