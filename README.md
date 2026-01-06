@@ -2,6 +2,9 @@
 
 🍓 Transforme ton Raspberry Pi en station radio FM avec une interface web intuitive
 
+<img src="/docs/assets/interface-berryradio.png" width="700">
+
+
 ## Installation rapide
 
 ### Option 1: Installation directe (recommandé)
