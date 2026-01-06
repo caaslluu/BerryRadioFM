@@ -41,6 +41,3 @@ Puis ouvrez `http://votre-ip-raspberry:5000`
 - [Installation Guide](docs/INSTALLATION.md)
 - [Troubleshooting](docs/TROUBLESHOOTING.md)
 
-## License
-
-MIT
